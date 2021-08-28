@@ -1,0 +1,313 @@
+/* Condigurações iniciais */
+body{
+	margin: 0 auto;
+}
+h1,h2,h3 {
+	color: #db3c80;
+	font-family: 'Pattaya', sans-serif;
+}
+nav {
+	display: flex;
+	flex-direction: column;
+	background-color: #cccccc;
+}
+nav ul li{
+	size: 100px;
+	font-family: 'Pattaya', sans-serif;
+}
+/* Área dos Urls principais */
+.Cabeçalho {
+	float:left;
+	width: 60%;
+}
+.Cabeçalho ul li img {
+	height:35px;
+	width:35px;
+}
+.Cabeçalho ul li {
+	margin-top: 30px;
+	margin-left: 20px;
+	display: inline-block;
+	float:left;
+	list-style: none;
+	margin-right: 20px;
+}
+.Cabeçalho ul li a{
+	color: #db3c80;
+	font-size: 26px;
+	text-decoration: none;
+}
+.Cabeçalho ul li a:hover{
+	Color:blue;
+}
+/* logo do Asupe */
+.logo {
+	width:13%;
+	float: left;
+	position: center;
+}
+.logo img{
+	margin-top: 1px;
+	height: 100%;
+	width: 50%;
+}
+/* Botão de acesso */
+.acesso {
+	padding: 15px;
+}
+.acesso button h1 {
+	font-size: 33px;
+}
+.acesso button{
+	border-radius:200px;
+	width: 200px;
+	height: 88px;
+	background-color:#1a186e;
+}
+.acesso button :hover {
+	Color:blue;
+}
+.acesso button a {
+	text-decoration: none;
+}
+/* Banners principais com slider */
+#slider img {
+	margin-left: auto;
+	width:100%;
+	display: flex;
+}
+/* área de posts mais acessados */
+.recentes {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:500px;
+}
+/* Postagens */
+  #post {
+	  margin-left: 3%;
+	  float: left;
+	  width: flex;
+	  height: flex;
+	  text-align: center;
+  }
+  #post img{
+	  height: 173px;
+	  width: 258px;
+  }
+  #post table tr td {
+	  border-width: 5px;
+	  border-style: inset;
+  }
+  #post table tr {
+	  margin-right: 20px;
+  }
+  /* Notícias e Aniversário */
+.not-ani {
+	width:100%;
+	height:700px;
+	background-color: #eeeeee;
+}
+/* Notícias */
+#noticias {
+		float: left;
+		width:40%;
+		height:637px;
+		margin-left: 20px;
+	
+}
+#noticias table tr td {
+	margin-top: 10px;
+	border-width:3px;
+	border-style:solid;
+	text-align: center;
+}
+/* Aniversário */
+#aniversário {
+		float: right;
+		width: 50%;
+		height: 637px;
+}
+#aniversário img {
+	width: flex;
+}
+/************************/
+/*********Eventos********/
+/************************/
+.fundo-eventos {
+	background-image: url("../img/background/eventos.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 800px;
+}
+/*Postagens no site */
+#postagemE1 {
+	background-color: yellow;
+	width: 100%;
+	display: table;
+}
+#postagemE1 h1{
+	color: darkblue;
+	text-align: center;
+}
+/* Background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/************************/
+/*********Viagens********/
+/************************/
+.fundo-viagens{
+	background-image: url("../img/background/viagens.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 1000px;
+}
+/* Postagens */
+#postagemV1 {
+	background-color: cadetblue;
+	width: 100%;
+	display: table;
+}
+#postagemV1 h1{
+	color: orangered;
+	font-family: Samanata;
+	text-align: center;
+}
+/* background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/************************/
+/*********Serviços********/
+/************************/
+.fundo-serviços{
+	background-image: url("../img/background/serviços.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 1000px;
+}
+/* Postagens do site */
+#postagemS1 {
+	background-color: yellow;
+	width: 100%;
+	display: table;
+}
+#postagemS1 h1{
+	color: orangered;
+	font-family: Samanata;
+	text-align: center;
+}
+/* Background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/************************/
+/*********Contatos********/
+/************************/
+.fundo-contato {
+	background-image: url("../img/background/contatos.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 1000px;
+}
+/* Postagens */
+#postagemC1 {
+	background-color: darkblue;
+	width: 100%;
+	display: table;
+}
+#postagemC1 h1{
+	color: orangered;
+	font-family: Samanata;
+	text-align: center;
+}
+/* background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/************************/
+/*****Login/Cadastro*****/
+/************************/
+/* Wallpaper Fundo Cadastro */
+.fundo-cadastro {
+	background-image:url("../img/background/login.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 1000px;
+}
+/*Postagens no site */
+.postagemCa1 img {
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+}
+/* Login e senha */
+.Acessodosite {
+	margin-left: 20px;
+}
+
+/* footer */
+footer {
+	width:100%;
+	height:300px;
+}
+/* Feedback */
+.feedback {
+	width: 50%;
+	height: 78px;
+	background-color: #ffffff;
+	color: gray;
+	margin-left: 500px;
+}
+.feedback img {
+	margin-top: 10px;
+	height: 50px;
+	width: 100px;	
+}
+/* Final da página */
+.finaldapag {
+	width: 100%;
+	height: 300px;
+	background-color: black;
+}
+/* Cabeçalho no final da página */
+/*topico1*/
+#topico {
+	width: 15%;
+	float:left;
+}
+#topico ul li{
+	list-style: none;
+	margin-right: 50px;
+}
+#topico ul li a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+/* itens do Cabeçalho no final da página */
+#itens {
+	height: 260px;
+}
+/* botão de Voltar no final da página */
+#voltar {
+	margin-left: 700px;
+}
+#voltar a {
+	color: black;
+	text-decoration: none;
+	font-size: 26px;
+}
+#voltar button {
+	color: white;
+}
