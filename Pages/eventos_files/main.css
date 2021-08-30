@@ -70,61 +70,7 @@ nav ul li{
 .acesso button a {
 	text-decoration: none;
 }
-/* footer */
-footer {
-	width:100%;
-	height:300px;
-}
-/* Feedback */
-.feedback {
-	width: 50%;
-	height: 78px;
-	background-color: #ffffff;
-	color: gray;
-	margin-left: 500px;
-}
-.feedback img {
-	margin-top: 10px;
-	height: 50px;
-	width: 100px;	
-}
-/* Final da página */
-.finaldapag {
-	width: 100%;
-	height: 300px;
-	background-color: black;
-}
-/* Cabeçalho no final da página */
-/*topico1*/
-#topico {
-	width: 15%;
-	float:left;
-}
-#topico ul li{
-	list-style: none;
-	margin-right: 50px;
-}
-#topico ul li a{
-	color: white;
-	font-size: 20px;
-	text-decoration: none;
-}
-/* itens do Cabeçalho no final da página */
-#itens {
-	height: 260px;
-}
-/* botão de Voltar no final da página */
-#voltar {
-	margin-left: 700px;
-}
-#voltar a {
-	color: black;
-	text-decoration: none;
-	font-size: 26px;
-}
-#voltar button {
-	color: white;
-}
+
 /* 	Fim Padrão do site  */
 
 /*************************************/
