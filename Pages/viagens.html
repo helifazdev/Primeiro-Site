@@ -1,102 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="../css/main.css">
-	<title>Asupe</title>
-	<link rel="icon" href="../Img/Logos/iconeAsupe.png">
+    <meta charset="UTF-8">
+    <!-- Icone e título da Asupe-->
+    <title>Asupe</title>
+    <link rel="icon" href="../img/Logos/iconeAsupe.png">
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../normalize/normalize.css">
+    <!-- JS -->
+    <script defer src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<nav id="Topo">
-	<main>
-		<!-- Menu das URLs -->
-	<div class="Cabeçalho">
-		<ul>
-			<li><a href="../index.html"><img src="../img/icones/home.png"></li>
-			<b>	<li><a href="eventos.html"> Eventos </a> </li>
-				<li><a href="viagens.html"> Viagens </a> </li>
-				<li><a href="Serviços.html"> Serviços </a> </li>
-				<li><a href="Contato.html"> Contatos </a> </b> </li>
-		</ul>
-	 </div>
-<!-- logo do Asupe atual -->
-	 <div class="logo">
-	 	<img src="../img/Logos/LogoAsupe.png">
-	  </div>
-<!-- Área de acesso-->
-	  <div class="acesso">
-		  <button type="submit"><a href="../Pages/Cadastro.html"><h1>Acessar</h1></a></button>
-	  </div>
-		</div>
-	  </div>
-	</main>
-	</nav>
-	<div id="postagemV1">
-		<h1>Viagens </h1>
-		<hr>
-	</div>
-<!-- ---- -->
-	<header class="fundo-viagens">
+    <header>
+        <!-- Menu das URLs -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html"><h1>Início</h1></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="eventos.html"><h1>Eventos</h1></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="viagens.html"><h1>Viagens</h1></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="serviços.html"><h1>Serviços</h1></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contatos.html"><h1>Contatos</h1></a>
+                  </li>
+              </div>
+            </div>
+            <div class="container">
+           <!-- logo do Asupe atual -->
+           <a class="logo" href="#"> <img src="../img/Logos/LogoAsupe.png"> </a> 
+           <!-- Área de acesso -->
+           <button type="button" class="btn btn-outline-danger"><a href="acesso.html"><strong>Acessar</strong></a></button>
+        </div>
+          </nav>		
+</header>
 
-		<div id="fundo"> </div>
-	</div>
-	</header>
-	<!-- -------- -->
-<footer>
-	<!-- Feedback -->
-<div class="feedback"> 
-	 Queremos melhorar o nosso site, esse conteúdo foi útil para você? <img class="feed" src="../img/icones/feed1.png">
+<div id="postagemV1">
+  <h1>Viagens </h1>
+  <hr>
 </div>
-	<!-- Final da página -->
-	<div class="finaldapag">
+<!-- ---- -->
+<header class="fundo-viagens">
 
-		<div id="topico">
-		<ul>
-			<b>	<li><a href="eventos.html"> Eventos </a> </li></b>
-			<li><a href="#"> Calendário </a> </li>
-			</ul>
-		</div>
+  <div id="fundo"> </div>
+</div>
+</header>
+<!-- -------- -->
 
-		<div id="topico"> 
-			<ul>
-				<li><b><a href="Viagens.html"> Viagens </a></b> </li>
-				<li><a href="#"> Feitas </a> </li>
-				<li><a href="#"> Próximas </a> </li>
-				</ul>
-				</div>
 
-		<div id="topico"> 
-	<ul>
-		<li><b><a href="serviços.html"> Serviços </a> </b></li>
-				<li><a href="#"> Espaço da Beleza </a> </b> </li>
-				<li><a href="#"> Jurídico </a> </li>
-				<li><a href="#"> Contador </a> </li>
-				<li><a href="#"> ótica </a> </li>
-					</ul>
-				</div>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">Todos os Direitos resevados ao Asupe &copy;</p>
 
-				<div id="topico">
-			<ul>
-				<li><b><a href="contato.html"> Contatos </a></b> </b> </li>
-				<li><a href="#"> Unidades da UPE </a> </li>
-				<li><a href="#"> HUOC </a> </li>
-				<li><a href="#"> Procape </a> </li>
-				<li><a href="#"> Cisam </a> </li>
-				<li><a href="#"> Reitoria </a> </li>
-			</ul>
-		</div>
-		
-		<div id="itens"> </div>
-		<div id="voltar">
-		<button><a href="#Topo"> Voltar </a></button> </div>
-	</div>
-</footer>
-<!-- ------- -->
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"> </svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Início</a></li>
+      <li class="nav-item"><a href="eventos.html" class="nav-link px-2 text-muted">Eventos</a></li>
+      <li class="nav-item"><a href="viagens.html" class="nav-link px-2 text-muted">Viagens</a></li>
+      <li class="nav-item"><a href="serviços.html" class="nav-link px-2 text-muted">Serviços</a></li>
+      <li class="nav-item"><a href="contatos.html" class="nav-link px-2 text-muted">Contatos</a></li>
+      <li class="nav-item"><a href="acesso.html" class="nav-link px-2 text-muted">Acesso</a></li>
+    </ul>
+  </footer>
+</div>
 </body>
 </html>
