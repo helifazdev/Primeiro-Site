@@ -21,10 +21,12 @@ header .btn a{
    color:var(--azul);
    font-size: 50px;
    text-decoration: none; 
+   
 }
 header .btn {
     width: 300px;
     height: 100px;
+	border-radius: 100px;
 }
 /* Barra de navegação */
 header .nav-link h1 {
