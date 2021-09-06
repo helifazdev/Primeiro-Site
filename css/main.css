@@ -1,284 +1,76 @@
-/* Condigurações iniciais */
-/*Padrões do site */
-body{
-	margin: 0 auto;
+:root {
+	--rosa:#db3c80;
+	--azul:#1a186e;
+	--cinza:rgba(0, 0, 0, 0.1);
 }
-h1,h2,h3 {
-	color: #db3c80;
-	font-family: 'Pattaya', sans-serif;
+h1 {
+	color: var(--rosa);
+	font-family: 'Pattaya', sans-serif; 
+}
+h2,h3 {
+	color: var(--rosa);
+	font-family: 'Arial black', Times;
+}
+/* Logo */
+header .container .logo img {
+  width: 35%;
+  height: 25%;
+}
+/*botão*/
+header .btn a{
+   color:var(--azul);
+   font-size: 30px;
+   text-decoration: none; 
+}
+header .btn {
+    width: 150px;
+    height: 100px;
+}
+/* Barra de navegação */
+header .nav-link h1 {
+    font-size: 37px;
+    margin-right: 7px;
+}
+header .nav-link h1:hover {
+   color:var(--azul);
 }
 nav {
-	display: flex;
-	flex-direction: column;
-	background-color: #cccccc;
+    background: var(--cinza);
 }
-nav ul li{
-	size: 100px;
-	font-family: 'Pattaya', sans-serif;
+/***********************/
+/****Página inicial*****/
+/**********************/
+.col-lg-4 img {
+    width: 400px;
+    height: 250px;
 }
-/* Área dos Urls principais */
-.Cabeçalho {
-	float:left;
-	width: 60%;
+.noticias {
+    background: var(--cinza);
 }
-.Cabeçalho ul li img {
-	height:35px;
-	width:35px;
-}
-.Cabeçalho ul li {
-	margin-top: 30px;
-	margin-left: 20px;
-	display: inline-block;
-	list-style: none;
-	margin-right: 20px;
-}
-.Cabeçalho ul li a{
-	color: #db3c80;
-	font-size: 30px;
-	text-decoration: none;
-}
-.Cabeçalho ul li a:hover{
-	Color:blue;
-}
-/* logo do Asupe */
-.logo {
-	width:13%;
-	float: left;
-	position: center;
-}
-.logo img{
-	margin-top: 1px;
-	height: 100%;
-	width: 50%;
-}
-/* Botão de acesso */
-.acesso {
-	padding: 15px;
-}
-.acesso button h1 {
-	font-size: 33px;
-}
-.acesso button{
-	border-radius:200px;
-	width: 200px;
-	height: 88px;
-	background-color:#1a186e;
-}
-.acesso button :hover {
-	Color:blue;
-}
-.acesso button a {
-	text-decoration: none;
-}
-/* footer */
-footer {
-	width:100%;
-	height:300px;
-}
-/* Feedback */
-.feedback {
-	width: 50%;
-	height: 78px;
-	background-color: #ffffff;
-	color: gray;
-	margin-left: 500px;
-}
-.feedback img {
-	margin-top: 10px;
-	height: 50px;
-	width: 100px;	
-}
-/* Final da página */
-.finaldapag {
-	width: 100%;
-	height: 300px;
-	background-color: black;
-}
-/* Cabeçalho no final da página */
-/*topico1*/
-#topico {
-	width: 15%;
-	float:left;
-}
-#topico ul li{
-	list-style: none;
-	margin-right: 50px;
-}
-#topico ul li a{
-	color: white;
-	font-size: 20px;
-	text-decoration: none;
-}
-/* itens do Cabeçalho no final da página */
-#itens {
-	height: 260px;
-}
-/* botão de Voltar no final da página */
-#voltar {
-	margin-left: 700px;
-}
-#voltar a {
-	color: black;
-	text-decoration: none;
-	font-size: 26px;
-}
-#voltar button {
-	color: white;
-}
-/* 	Fim Padrão do site  */
-
-/*************************************/
-/***************HOME*****************/
-/***********************************/
-/* Banners principais com slider */
-#slider img {
-	margin-left: auto;
-	width:100%;
-	display: flex;
-}
-/* área de posts mais acessados */
-.recentes {
-	display: flex;
-	width:flex;
-	height:500px;
-	align-items: center;
-}
-/* Postagens */
-  #post {
-	  margin-left: 3%;
-	  float: left;
-	  width: flex;
-	  height: flex;
-	  text-align: center;
-  }
-  #post img{
-	  height: 173px;
-	  width: 258px;
-  }
-  #post table tr td {
-	  border-width: 5px;
-	  border-style: inset;
-  }
-  #post table tr {
-	  margin-right: 20px;
-  }
-  /* Notícias e Aniversário */
-.not-ani {
-	width:100%;
-	height:700px;
-	background-color: #eeeeee;
-}
-/* Notícias */
-#noticias {
-		float: left;
-		width:40%;
-		height:637px;
-		margin-left: 20px;
-	
-}
-#noticias table tr td {
-	margin-top: 10px;
-	border-width:3px;
-	border-style:solid;
-	text-align: center;
-}
-/* Aniversário */
-#aniversário {
-		float: right;
-		width: 50%;
-		height: 637px;
-}
-#aniversário img {
-	width: flex;
-}
-/*  Fim  */
-
-/************************/
-/*********Eventos********/
-/************************/
-.fundo-eventos {
-	background-image: url("https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+/***********************/
+/****Acesso*************/
+/**********************/
+.fundo-cadastro {
+	background-image:url("../img/background/login.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
-	height: 800px;
+	height: 1000px;
 }
 /*Postagens no site */
-#postagemE1 {
-	background-color: yellow;
-	width: 100%;
-	display: table;
+.postagemCa1 img {
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
 }
-#postagemE1 h1{
-	color: darkblue;
-	text-align: center;
-}
-/* Background do site */
-#fundo {
-	width: 100%;
-	display: flex;
-}
-/*  Fim  */
-
-/************************/
-/*********Viagens********/
-/************************/
-.fundo-viagens{
-	background-image: url("../img/background/viagens.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
-	height: 1000px;
-}
-/* Postagens */
-#postagemV1 {
-	background-color: cadetblue;
-	width: 100%;
-	display: table;
-}
-#postagemV1 h1{
-	color: orangered;
-	font-family: Samanata;
-	text-align: center;
-}
-/* background do site */
-#fundo {
-	width: 100%;
-	display: flex;
+/* Login e senha */
+.Acessodosite {
+	margin-left: 20px;
 }
 /* Fim */
-
-/************************/
-/*********Serviços********/
-/************************/
-.fundo-serviços{
-	background-image: url("../img/background/serviços.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 100%;
-	height: 1000px;
-}
-/* Postagens do site */
-#postagemS1 {
-	background-color: yellow;
-	width: 100%;
-	display: table;
-}
-#postagemS1 h1{
-	color: orangered;
-	font-family: Samanata;
-	text-align: center;
-}
-/* Background do site */
-#fundo {
-	width: 100%;
-	display: flex;
-}
-/*  Fim  */
-
-/************************/
-/*********Contatos********/
-/************************/
+/***********************/
+/****Contatos*****/
+/**********************/
 .fundo-contato {
 	background-image: url("../img/background/contatos.jpg");
 	background-repeat: no-repeat;
@@ -304,25 +96,85 @@ footer {
 }
 /* Fim  */
 
-/************************/
-/*****Login/Cadastro*****/
-/************************/
-/* Wallpaper Fundo Cadastro */
-.fundo-cadastro {
-	background-image:url("../img/background/login.jpg");
+/***********************/
+/****Eventos*****/
+/**********************/
+.fundo-eventos {
+	background-image: url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 800px;
+}
+/*Postagens no site */
+#postagemE1 {
+	background-color: yellow;
+	width: 100%;
+	display: table;
+}
+#postagemE1 h1{
+	color: darkblue;
+	text-align: center;
+}
+/* Background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/*  Fim  */
+
+/***********************/
+/****Serviços*****/
+/**********************/
+.fundo-serviços{
+	background-image: url("../img/background/serviços.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
 	height: 1000px;
 }
-/*Postagens no site */
-.postagemCa1 img {
-	margin-left: 20px;
-	width: 100px;
-	height: 100px;
+/* Postagens do site */
+#postagemS1 {
+	background-color: yellow;
+	width: 100%;
+	display: table;
 }
-/* Login e senha */
-.Acessodosite {
-	margin-left: 20px;
+#postagemS1 h1{
+	color: orangered;
+	font-family: Samanata;
+	text-align: center;
+}
+/* Background do site */
+#fundo {
+	width: 100%;
+	display: flex;
+}
+/*  Fim  */
+
+/***********************/
+/****Viagens*****/
+/**********************/
+.fundo-viagens{
+	background-image: url("../img/background/viagens.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 1000px;
+}
+/* Postagens */
+#postagemV1 {
+	background-color: cadetblue;
+	width: 100%;
+	display: table;
+}
+#postagemV1 h1{
+	color: orangered;
+	font-family: Samanata;
+	text-align: center;
+}
+/* background do site */
+#fundo {
+	width: 100%;
+	display: flex;
 }
 /* Fim */
